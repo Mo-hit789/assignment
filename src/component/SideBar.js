@@ -21,10 +21,10 @@ const [readmoreorless,setreadmoreorless] = useState("More");
       <div className='content'>
            <div>
         <h2 style={{letterSpacing: "3px",lineHeight: "25px"}}>
-          MAITREYA BUDHHA <br/>
+          {/* MAITREYA BUDHHA <br/>
           IN GESTURE OF <br/>
           FEARLESNESS <br/>
-          (ABHAY MUDRA)
+          (ABHAY MUDRA) */}
         </h2>
        </div>
 
