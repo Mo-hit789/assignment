@@ -22,10 +22,12 @@ function App() {
        className='centered-image1' 
        src={img2} 
        style={{width:"100vw",height:"100vh", objectFit: 'cover'}}
+       alt="background image"
        />
       <img 
       className={`centered-image2 ${showSidebar ? 'sidebarOpen' : ''}`}
       src={statueImg} 
+      alt="statue Image"
       />
       </div>
       <div  className={`toggle-button ${showSidebar ? 'sidebar-visible' : ''}`} >

@@ -73,7 +73,7 @@ const [readmoreorless,setreadmoreorless] = useState("More");
           Buddhas</p>
         }
         <FontAwesomeIcon icon="fa-solid fa-arrow-right" style={{color:"#984211", fontWeight:"bold"}}/> {` `}
-        <button onClick={()=> readmore()} style={{border:"0", color:"#984211", fontWeight:"bold",background: "none", cursor:"pointer"}}><a>Read {readmoreorless}</a></button> 
+        <button onClick={()=> readmore()} style={{border:"0", color:"#984211", fontWeight:"bold",background: "none", cursor:"pointer"}}><a href='#'>Read {readmoreorless}</a></button> 
      </div>  
      <div className='btn' style={{marginTop:"10px"}}>
      <button className='btn1'>ADD TO COLLECTION</button> {` `}
