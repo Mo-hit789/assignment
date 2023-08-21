@@ -3,7 +3,6 @@ import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "./SideBar_style.css";
 
-
 const  SideBar = ({toggleSidebar}) => {
 const [readMore,setReadMore] = useState(false);
 const [readmoreorless,setreadmoreorless] = useState("More");
@@ -11,9 +10,7 @@ const [readmoreorless,setreadmoreorless] = useState("More");
     setreadmoreorless(readmoreorless === "More" ?'Less':'More' );
         setReadMore(readmoreorless === "More" ? true:false  );
    }
- 
   return (
-
     <div className={`sidebar ${readMore ? 'readmore' : ''}`}>
     <button onClick={toggleSidebar} style={{position:'absolute', left:'20px', top:'20px', border:'0',cursor:'pointer'}}>
         <FontAwesomeIcon icon="fa-solid fa-chevron-left" className='icon circle-icon' />
@@ -21,10 +18,10 @@ const [readmoreorless,setreadmoreorless] = useState("More");
       <div className='content'>
            <div>
         <h2 style={{letterSpacing: "3px",lineHeight: "25px"}}>
-          {/* MAITREYA BUDHHA <br/>
+          MAITREYA BUDHHA <br/>
           IN GESTURE OF <br/>
           FEARLESNESS <br/>
-          (ABHAY MUDRA) */}
+          (ABHAY MUDRA)
         </h2>
        </div>
 
@@ -56,7 +53,7 @@ const [readmoreorless,setreadmoreorless] = useState("More");
           readMore && <p 
           style={{
             color: "#717171",
-            fontSize: "16px", // Set a default font size
+            fontSize: "16px", 
             maxWidth: "100%",
             boxSizing: "border-box",
             margin: "0 auto",
